@@ -1,0 +1,19 @@
+{
+  "name": "transcode-video-pins",
+  "version": "1.0.0",
+  "description": "How to Amazon Web Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyanko007/toybox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyanko007/toybox/issues"
+  },
+  "homepage": "https://github.com/tyanko007/toybox#readme"
+}
