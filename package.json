@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tyanko007/toybox/issues"
   },
-  "homepage": "https://github.com/tyanko007/toybox#readme"
+  "homepage": "https://github.com/tyanko007/toybox#readme",
+  "dependencies": {
+    "aws-sdk": "latest"
+  }
 }
