@@ -11,7 +11,7 @@ var elasticTranscoder = new AWS.ElasticTranscoder({
 
 exports.handler = function(event, context, callback){
   // keyはバケット内のオブジェクトを一意に識別する。元のファイル名と任意のキープレフィックスから構成される
-  var key = event.Recodes[0].s3.object.key
+  var key = event.Records[0].s3.object.key
   // キー名はURLでエンコードされるのでハイフンをデコードできるように設定してあげる
   var sourceKey = decodeURIComponent(key.replace(/\+/g, " "))
   // オリジナルのキーの拡張子はトランスコードされた新しいファイルでは不要。キーの本絵愛の名前は出力動画のタイトルとして利用する
