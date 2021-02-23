@@ -4,7 +4,7 @@
   "description": "How to Amazon Web Service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "run-local-lambda --file index.js --event tests/event.json"
   },
   "repository": {
     "type": "git",
