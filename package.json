@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tyanko007/toybox#readme",
   "dependencies": {
-    "aws-sdk": "latest"
+    "aws-sdk": "latest",
+    "run-local-lambda": "latest"
   }
 }
