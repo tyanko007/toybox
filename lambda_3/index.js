@@ -60,7 +60,7 @@ function saveFilesystem(sourceBucket, sourceKey, callback){
   });
 }
 
-export.handler = function(event, context, callback){
+exports.handler = function(event, context, callback){
   var message = JSON.parse(event.Records[0].sns.Message);
 
   var sourceBucket = message.Records[0].s3.bucket.name;
