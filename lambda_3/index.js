@@ -31,7 +31,7 @@ function saveMetadataToS3(body, bucket, key, callback){
 function extractMetadata(sourceBucket, sourceKey, localFilename, callback){
   console.log("Extracting metadata");
 
-  var cmd = "/bin/ffprobe -v quiet -print_format json -show_format '/tmp/" + localFilename + "'";
+  var cmd = 'bin/ffprobe -v quiet -print_format json -show_format "/tmp/' + localFilename + '"';
 
   exec(cmd, function(error, stdout, stderr){
     if (error === null) {
